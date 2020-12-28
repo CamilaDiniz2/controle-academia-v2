@@ -1,0 +1,57 @@
+{
+  "members": [
+    {
+      "avatar_url": "https://images.unsplash.com/flagged/photo-1561618178-a1635b596bf0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8ODJ8fGljb25zfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": "Cantor de rua",
+      "email": "cantor@email.com",
+      "birth": -625881600000,
+      "gender": "M",
+      "blood": "O-",
+      "weight": "80",
+      "height": "150",
+      "id": 3
+    },
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1601407372474-11405fbf8d5b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTI4fHxpY29uc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": "Violinista",
+      "email": "violinista@email.com",
+      "birth": 345427200000,
+      "gender": "M",
+      "blood": "A+",
+      "weight": "70",
+      "height": "175",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "avatar_url": "https://images.unsplash.com/photo-1587099062441-95c27d50cd96?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fGdhbWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": "Joga joga",
+      "email": "jogajoga@email.com",
+      "birth": 614304000000,
+      "gender": "F",
+      "blood": "A+",
+      "weight": "75",
+      "height": "170"
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1584952449180-f8fddc0b03a3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "name": "Fulano da Silva",
+      "birth": 954547200000,
+      "gender": "M",
+      "services": "Musculação, Crossfit",
+      "created_at": 1609089237838
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1576511843319-715ce1f27494?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjR8fGd5bXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": "Fulana de tal",
+      "birth": 811036800000,
+      "gender": "F",
+      "services": "Natação",
+      "created_at": 1609089409766
+    }
+  ]
+}

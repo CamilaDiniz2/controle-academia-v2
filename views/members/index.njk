@@ -1,0 +1,30 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+  <div class="card table-container">
+    <div class="show-instructors">
+    <div class="button-add">
+      <a href="/members/create">+ membro</a>
+    </div>
+    {% for member in members %}
+    <div class="instructor">
+      <div class="instructor-data">
+        <img src="{{member.avatar_url}}" alt="{{member.name}}" />
+        <div class="instructor-info">
+          <p>Name: <strong>{{member.name}}</strong></p>
+          <p>Email: <strong>{{member.email}} </strong></p>
+          <p>Altura: <strong>{{member.height}} cm</strong></p>
+          <p>Peso: <strong>{{member.weight}} kg</strong></p>
+        </div> 
+      </div>
+        
+      <div class="buttons">
+        <a href="/members/{{member.id}}" class="btn-ver">Saiba mais</a>
+      </div>
+      
+    </div>
+    {% endfor %}
+    </div>  
+  </div>
+
+{% endblock content %}
